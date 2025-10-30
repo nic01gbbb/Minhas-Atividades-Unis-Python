@@ -85,6 +85,7 @@ def ler_inteiro():
 
 ler_inteiro()
 
+# Exercício: Inverter frases
 
 def inverter_letras(frase):
     # Divide a frase em palavras
