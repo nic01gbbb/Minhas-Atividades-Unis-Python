@@ -57,18 +57,18 @@ if (primeironumero < segundonumero and primeironumero < terceironumero): menornu
 if (segundonumero < primeironumero and segundonumero < terceironumero): menornumero = segundonumero
 if (terceironumero < segundonumero and terceironumero < primeironumero): menornumero = terceironumero
 
-print("O menor número é o " + float(str(menornumero)))
+print("O menor número é o " + str(menornumero))
 
 
 # Exercício listando números primos
 
 def ler_inteiro():
-    n = 100
+    n = 101
     eprimo = True
 
-    for i in range(2, n):
+    for i in range(1, n):
         w = i
-        for j in range(2, w):
+        for j in range(1, w):
             if w % j == 0:
                 eprimo = False
                 break
